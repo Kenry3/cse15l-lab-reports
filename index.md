@@ -18,5 +18,6 @@ ___
 
 ![](sc.png)
 
+[Lab Report 1](cse15l-lab-reports.html)
 
 *I am a student from revelle.*
