@@ -68,10 +68,10 @@ _____
 
 *Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server. And here are the steps you should follow:*
 
-1. use ```ssh``` login the server
-2. type ```mkdir .ssh``` in the terminal
+1. use <span style="background-color:cyan">```ssh``` </span>```ssh``` login the server
+2. type <span style="background-color:cyan">```mkdir .ssh``` </span> in the terminal
 3. logout the server
-4. type ```scp /Users/kenry/.ssh/id_rsa.pub cs15lwi22awk@ieng6.ucsd.edu:~/.ssh/authorized_keys```, where you should use your username and the path you saw in the command above
+4. type <span style="background-color:cyan">```scp /Users/kenry/.ssh/id_rsa.pub cs15lwi22awk@ieng6.ucsd.edu:~/.ssh/authorized_keys``` </span>, where you should use your username and the path you saw in the command above
 5. then you can login in without entering password
 
 ----
