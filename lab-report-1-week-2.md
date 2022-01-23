@@ -18,9 +18,9 @@
 *To get basic understanding of ssh, you can watch this [video demonstration.](https://www.youtube.com/watch?v=z7jVOenqFYk)*
 
 *To connect to the server, you should type*
-```ssh + ip address of the romote server``` *like this:*
+<span style="color:yellow">```ssh + ip address of the romote server```</span> *like this:*
 
-```$ ssh cse15lwi22awk@ieng6.ucsd.edu```
+<span style="color:yellow">``````$ ssh cse15lwi22awk@ieng6.ucsd.edu``````</span>
 
 *After you successfully log in. you should see something like this:*
 
@@ -35,14 +35,12 @@ _____
 
 *There are some basic commands you should try out:*
 
-```
-* cd
-* cd ..
-* ls 
-* pwd
-* rm
-* mkdir
-```
+* ``cd``
+* `cd ..`
+* `ls` 
+* `pwd`
+* `rm`
+* `mkdir`
 
 *To learn more about commands and their applications, watch this [video.](https://www.youtube.com/watch?v=ogWoUU2DXBU)*
 
@@ -52,9 +50,10 @@ _____
 
 >Secure copy protocol (SCP) is a means of securely transferring computer files between a local host and a remote host or between two remote hosts.
 
-*To copy your local file to the romote server, you should type ```scp + the file you want to copy + ip adress of the server``` like this:*
+*To copy your local file to the romote server, you should type <span style="color:yellow">```scp + the file you want to copy + ip adress of the server```</span> like this:*
 
-```scp WhereAmI.java cse15lwi22awk@ieng6.ucsd.edu:~/```
+<span style="color:yellow">```scp WhereAmI.java cse15lwi22awk@ieng6.ucsd.edu:~/```</span>
+
 
 ----
 
@@ -62,7 +61,7 @@ _____
 
 >Ssh-keygen is a tool for creating new authentication key pairs for SSH. Such key pairs are used for automating logins, single sign-on, and for authenticating hosts.
 
-*To generate the key, you should type* ```ssh-keygen``` *in the terminal, then you can see this shows up* 
+*To generate the key, you should type* <span style="color:yellow">```ssh-keygen``` </span> *in the terminal, then you can see this shows up* 
 ![](keygen.png)
 
 *This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.*
@@ -74,6 +73,7 @@ _____
 3. logout the server
 4. type ```scp /Users/kenry/.ssh/id_rsa.pub cs15lwi22awk@ieng6.ucsd.edu:~/.ssh/authorized_keys```, where you should use your username and the path you saw in the command above
 5. then you can login in without entering password
+
 ----
 
 ## Part 6: Optimizing Remote Running
@@ -82,14 +82,14 @@ _____
 
 *There are lots of ways to make command line more efficient! For example:*
 
-* If you don't want to type the whole file name, you can use your ```tab``` on your key board 
+* If you don't want to type the whole file name, you can use your <span style="color:yellow">```tab``` </span> on your key board 
 
-* If you want to write a command that you ran before, you can use ```up-arrow``` on your key board you find that command, and type ```history``` may help you with that!
+* If you want to write a command that you ran before, you can use <span style="color:yellow">```up-arrow``` </span> on your key board you find that command, and type <span style="color:yellow">```history``` </span> may help you with that!
 
-* You can write a command in quotes at the end of an ```ssh``` command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
-```$ ssh cs15lwi22awk@ieng6.ucsd.edu "ls"```
+* You can write a command in quotes at the end of an <span style="color:yellow">```ssh``` </span> command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+<span style="color:yellow">```$ ssh cs15lwi22awk@ieng6.ucsd.edu "ls"``` </span>
 
 * You can use semicolons to run multiple commands on the same line in most terminals. For example:
-```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
+<span style="color:yellow">```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI``` </span>
 
 *What you should do is to keep learning and asking questions! There are some [videos](https://www.youtube.com/watch?v=cXuXij68DtE) teaching you how to use command line more efficient!* 
