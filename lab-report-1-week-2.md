@@ -90,6 +90,10 @@ _____
 <span style="background-color:cyan">```$ ssh cs15lwi22awk@ieng6.ucsd.edu "ls"``` </span>
 
 * You can use semicolons to run multiple commands on the same line in most terminals. For example:
-<span style="background-color:cyan">```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI``` </span>
+<span style="background-color:cyan">```$ cp WhereAmI.java Hello.java; javac OtherMain.java; java WhereAmI``` </span>
+
+**Combining these skills, we can log in to the romote server, list files, print directory, and log out by using much less key strokes**
+
+![image](keystroke.png)
 
 *What you should do is to keep learning and asking questions! There are some [videos](https://www.youtube.com/watch?v=cXuXij68DtE) teaching you how to use command line more efficient!* 
