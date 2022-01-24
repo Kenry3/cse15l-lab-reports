@@ -35,12 +35,12 @@ _____
 
 *There are some basic commands you should try out:*
 
-* ``cd``
-* `cd ..`
-* `ls` 
-* `pwd`
-* `rm`
-* `mkdir`
+* <span style="background-color:cyan">```cd``` </span>
+* <span style="background-color:cyan">`cd ..`</span>
+* <span style="background-color:cyan">`ls` </span>
+* <span style="background-color:cyan">`pwd` </span>
+* <span style="background-color:cyan">`rm` </span>
+* <span style="background-color:cyan">`mkdir`</span>
 
 *To learn more about commands and their applications, watch this [video.](https://www.youtube.com/watch?v=ogWoUU2DXBU)*
 
@@ -92,7 +92,11 @@ _____
 * You can use semicolons to run multiple commands on the same line in most terminals. For example:
 <span style="background-color:cyan">```$ cp WhereAmI.java Hello.java; javac OtherMain.java; java WhereAmI``` </span>
 
-**Combining these skills, we can log in to the romote server, list files, print directory, and log out by using much less key strokes**
+**Without these skills, I need to type every character to log in to the remote server and click enter every time I type any command. To finish the whole process of loging in to the romote server, listing files, printing directory, and loging out, it needs 43 keystrokes**
+
+![](ef.png)
+
+**Combining these skills, I only need 9 key strokes to finish the whole process!**
 
 ![image](keystroke.png)
 
