@@ -45,7 +45,7 @@
 ![](tf3.png)
 
 *The test failed for both programs since our code didn't take the empty new line and link starts with <span style="background-color:cyan">`http or https` </span> into consideration
-
+![](tf33.png)
 **The possible code change:**
 
 1. if there are empty new line, use <span style="background-color:cyan">`continue` </span> and set current index to the start index of non empty new line
