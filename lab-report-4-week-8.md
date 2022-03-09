@@ -39,10 +39,10 @@
 *And the terminal displays*
 
 **My code**
-![](p4.png)
+![](p3.png)
 
 **Reviewed code**
-![](p2.png)
+![](p4.png)
 
 *The test failed for reviewed programs since their code just simply check if the link is in the format <span style="background-color:cyan">`[]()` </span>*
 ![](tf2.png)
