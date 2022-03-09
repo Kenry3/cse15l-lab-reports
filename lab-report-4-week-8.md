@@ -15,7 +15,7 @@
 *And the terminal displays*
 
 **My code**
-![](p4.png)
+![](p2.png)
 
 *Reviewed code*
 ![](p5.png)
@@ -39,7 +39,7 @@
 *And the terminal displays*
 
 **My code**
-![](p3.png)
+![](p4.png)
 
 **Reviewed code**
 ![](p2.png)
