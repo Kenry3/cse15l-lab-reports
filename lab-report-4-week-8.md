@@ -12,6 +12,14 @@
 *So the expected output of our markdownParse program should be <span style="background-color:cyan">``[`google.com, google.com, ucsd.edu]`` </span>. So I create a test:*
 ![](t1.png)
 
+*And the terminal displays*
+
+**My code**
+![](p4.png)
+
+*Reviewed code*
+![](p5.png)
+
 *The test failed for both programs since our code didn't check for backticks. Thus, the list includes element that's not supposed to be there*
 ![](tf1.png)
 
@@ -28,7 +36,15 @@
 *So the expected output of our markdownParse program should be <span style="background-color:cyan">`[a.com, a.com(()), example.com]` </span>. So I create a test:*
 ![](t2.png)
 
-*The test failed for both programs since our code just simply check if the link is in the format <span style="background-color:cyan">`[]()` </span>*
+*And the terminal displays*
+
+**My code**
+![](p3.png)
+
+**Reviewed code**
+![](p2.png)
+
+*The test failed for reviewed programs since their code just simply check if the link is in the format <span style="background-color:cyan">`[]()` </span>*
 ![](tf2.png)
 
 **The possible code change:**
@@ -41,8 +57,8 @@
 **the preview of Snippet 1**
 ![](s3.png)
 
-*So the expected output of our markdownParse program should be <span style="background-color:cyan">`[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]` </span>. So I create a test:*
-![](tf3.png)
+*So the expected output of our markdownParse program should be <span style="background-color:cyan">`[https://ucsd-cse15l-w22.github.io/]` </span>. So I create a test:*
+![](p1.png)
 
 *The test failed for both programs since our code didn't take the empty new line and link starts with <span style="background-color:cyan">`http or https` </span> into consideration
 ![](tf33.png)
