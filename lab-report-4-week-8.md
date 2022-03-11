@@ -7,21 +7,21 @@
 ## Snippet 1 ##
 
 **the preview of Snippet 1**
-![](s1.png)
+![](/image/s1.png)
 
 *So the expected output of our markdownParse program should be <span style="background-color:cyan">``[`google.com, google.com, ucsd.edu]`` </span>. So I create a test:*
-![](t1.png)
+![](/image/t1.png)
 
 *And the terminal displays*
 
 **My code**
-![](p2.png)
+![](/image/p2.png)
 
 *Reviewed code*
-![](p5.png)
+![](/image/p5.png)
 
 *The test failed for both programs since our code didn't check for backticks. Thus, the list includes element that's not supposed to be there*
-![](tf1.png)
+![](/image/tf1.png)
 
 **The possible code change:**
 1. create variables <span style="background-color:cyan">`bS`</span> and <span style="background-color:cyan">`bE`</span> representing the start of backticks and the end of backticks
@@ -31,21 +31,21 @@
 ## Snippet 2 ##
 
 **the preview of Snippet 1**
-![](s1.png)
+![](/image/s1.png)
 
 *So the expected output of our markdownParse program should be <span style="background-color:cyan">`[a.com, a.com(()), example.com]` </span>. So I create a test:*
-![](t2.png)
+![](/image/t2.png)
 
 *And the terminal displays*
 
 **My code**
-![](p3.png)
+![](/image/p3.png)
 
 **Reviewed code**
-![](p4.png)
+![](/image/p4.png)
 
 *The test failed for reviewed programs since their code just simply check if the link is in the format <span style="background-color:cyan">`[]()` </span>*
-![](tf2.png)
+![](/image/tf2.png)
 
 **The possible code change:**
 
@@ -55,13 +55,13 @@
 ## Snippet 3 ##
 
 **the preview of Snippet 1**
-![](s3.png)
+![](/image/s3.png)
 
 *So the expected output of our markdownParse program should be <span style="background-color:cyan">`[https://ucsd-cse15l-w22.github.io/]` </span>. So I create a test:*
-![](p1.png)
+![](/image/p1.png)
 
 *The test failed for both programs since our code didn't take the empty new line and link starts with <span style="background-color:cyan">`http or https` </span> into consideration
-![](tf33.png)
+![](/image/tf33.png)
 **The possible code change:**
 
 1. if there are empty new line, use <span style="background-color:cyan">`continue` </span> and set current index to the start index of non empty new line

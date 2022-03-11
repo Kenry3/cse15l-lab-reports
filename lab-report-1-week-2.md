@@ -8,7 +8,7 @@
 
 ### If you install successfully and open it, you should see interface like this: 
 
-![Image](vsc.png)
+![Image](/image/vsc.png)
 
 ----
 ## Part 2: Remotely Connecting
@@ -24,7 +24,7 @@
 
 *After you successfully log in. you should see something like this:*
 
-![image](sshlg.png)
+![image](/image/sshlg.png)
 
 *Now you are connecting to the romote server!*
 _____
@@ -62,7 +62,7 @@ _____
 >Ssh-keygen is a tool for creating new authentication key pairs for SSH. Such key pairs are used for automating logins, single sign-on, and for authenticating hosts.
 
 *To generate the key, you should type* <span style="background-color:cyan">```ssh-keygen``` </span> *in the terminal, then you can see this shows up* 
-![](keygen.png)
+![](/image/keygen.png)
 
 *This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.*
 
@@ -94,10 +94,10 @@ _____
 
 **Without these skills, I need to type every character to log in to the remote server and click enter every time I type any command. To finish the whole process of loging in to the romote server, listing files, printing directory, and loging out, it needs 43 keystrokes**
 
-![](ef.png)
+![](/image/ef.png)
 
 **Combining these skills, I only need 9 key strokes to finish the whole process!**
 
-![image](keystroke.png)
+![image](/image/keystroke.png)
 
 *What you should do is to keep learning and asking questions! There are some [videos](https://www.youtube.com/watch?v=cXuXij68DtE) teaching you how to use command line more efficient!* 

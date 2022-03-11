@@ -7,16 +7,16 @@
 *We can make changes to config file in path ~/.ssh/config that tells SSH what username to use when logging into specific servers, and even give servers nicknames.*
 
 *We can edit config file in visual studio code*
-![image](config.png)
+![image](/image/config.png)
 
 *and change it to*
-![](ec.png)
+![](/image/ec.png)
 
 *Now we can login to our remote server faster and easier!* 
-![](el.png)
+![](/image/el.png)
 
 *let's also try if <span style="background-color:cyan">`scp` </span> works expectedly*
-![](es.png)
+![](/image/es.png)
 
 *Perfect!*
 
